@@ -6,7 +6,7 @@ def read_file(path):
 
         return [line.strip() for line in lines]
         
-inputs = read_file('inputs.txt')
+inputs = read_file('input.txt')
 summed = 0
 
 for dimensions in inputs:
