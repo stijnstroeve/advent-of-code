@@ -4,7 +4,6 @@ file = open('masses.txt', 'r')
 lines = file.readlines()
 added = 0
 
-
 test = 0
 def calc(num):
     global test
@@ -26,3 +25,4 @@ for line in lines:
 
 file.close()
 print(added)
+
